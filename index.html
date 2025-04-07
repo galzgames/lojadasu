@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja da Su</title>
+    <link rel="stylesheet" href="index.css">
+   
+</head>
+<body>
+    <header>
+        <h1>Loja da Su</h1>
+        <nav>
+            <ul>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="produtos">
+            <h2>Produtos</h2>
+            <div class="produto">
+                <img src="./img/agendas/agenda 2025.jpg" alt="Imagem do Produto 1">
+                <h3>Agendas</h3>
+                <p>Agenda personalizada tam.G</p>
+                <p>preço R$ 99,90</p>
+                <button>Comprar</button>
+            </div>
+            <div class="produto">
+                <img src="./img/cadernos/cad.jpg" alt="Produto 2">
+                <h3>cadernos</h3>
+                <p>caderno personalizado tam.G</p>
+                <p>preço R$ 99,90</p>   
+                <button>Comprar</button>
+            </div>
+        </section>
+        
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Loja da Su. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
